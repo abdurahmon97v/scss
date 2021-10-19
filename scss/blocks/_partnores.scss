@@ -1,0 +1,110 @@
+.partnores__title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 64px;
+  color: #18191F; 
+  margin: 0; 
+}
+.partnores__text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191F;  
+}
+
+.partnores__imgs{
+  padding-left: 25px;
+}
+.partnores__item{
+  width: 169px;
+  height: 48px;
+}
+.partnores__list{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+}
+.partnores__item:nth-child(4){
+  height: 73px;
+}
+.partnores__item:nth-child(2){
+  height: 59px;
+}
+.partnores__item:nth-child(6){
+  height: 73px;
+}
+.partnores__item:nth-child(3){
+  height: 65px;
+}
+@media screen and (max-width:992px) {
+  .partnores__des{
+    text-align: center;
+  }
+  .partnores__list{
+    text-align: center;
+    justify-content: center;
+  }
+}
+.partnores__row{
+  padding-bottom: 100px;
+}
+.partnores__comforts{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap row;
+  padding-bottom: 100px;
+  margin-left: -30px;
+}
+.comforts__title{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000; 
+  margin: 0; 
+}
+.comforts__text{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  margin: 0;  
+}
+.comforts__item{
+  width: 250px; 
+  text-align: center; 
+  padding-top: 119px;
+  margin-left: 30px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.comforts__item::before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 12px;
+  left: calc(50% - 50px);
+  background-repeat: no-repeat;
+}
+.comforts__item:nth-child(1)::before{
+  background-image: url('../../img/icon.svg');
+}
+.comforts__item:nth-child(2)::before{
+  background-image: url('../../img/icon1.svg');
+}
+.comforts__item:nth-child(3)::before{
+  background-image: url('../../img/icon2.svg');
+}
+.comforts__item:nth-child(4)::before{
+  background-image: url('../../img/icon3.svg');
+}
